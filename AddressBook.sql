@@ -27,3 +27,6 @@ set city = 'Agrico' where name = 'Ritu';
 delete from addressbook where first_name = 'Riya' and last_name = 'Raj';
 #UC6
 select * from addressbook where city = 'Agrico' or state = 'Jharkhand';
+#UC7
+select city, count(*) from addressbook group by city;
+select state, count(*) from addressbook group by state;

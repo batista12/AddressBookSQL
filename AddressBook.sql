@@ -20,4 +20,6 @@ insert into addressbook
 values
 ('Manasi', 'Singh', 'Agr', 'Agrico', 'Jharkhand', 8658965, 9854764464, 'manasi@gmail.com'),
 ('Riya', 'Raj', 'xyz', 'Agrico' ,'Jharkhand', 987654, 9786543323, 'riya@ewretr.com');
-
+#UC4
+update addressbook
+set city = 'Agrico' where name = 'Ritu';

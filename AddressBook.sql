@@ -39,4 +39,6 @@ ALTER TABLE addressbook ALTER type SET DEFAULT 'Friend';
 INSERT INTO addressbook VALUES
 ( 'Neha', 'Singh', 'Agrico','jharkhand', '62971', '9215679900', 'neha@gmail.com','Neha Singh','Family'),
 ( 'Rita', 'Singh', 'jenna','jharkhand', '987653', '8508995688', 'rita@gmail.com','Priya Singh','Friend');
+#UC10
+SELECT type, COUNT(first_name) FROM addressbook GROUP BY type;
 

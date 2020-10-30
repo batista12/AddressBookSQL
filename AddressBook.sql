@@ -32,3 +32,11 @@ select city, count(*) from addressbook group by city;
 select state, count(*) from addressbook group by state;
 #UC8
 select * from addressbook where city = 'Agrico' order by first_name;
+#UC9
+ALTER TABLE addressbook ADD name VARCHAR(100);
+ALTER TABLE addressbook ADD type VARCHAR(100);
+ALTER TABLE addressbook ALTER type SET DEFAULT 'Friend';
+INSERT INTO addressbook VALUES
+( 'Neha', 'Singh', 'Agrico','jharkhand', '62971', '9215679900', 'neha@gmail.com','Neha Singh','Family'),
+( 'Rita', 'Singh', 'jenna','jharkhand', '987653', '8508995688', 'rita@gmail.com','Priya Singh','Friend');
+

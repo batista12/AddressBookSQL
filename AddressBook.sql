@@ -30,3 +30,5 @@ select * from addressbook where city = 'Agrico' or state = 'Jharkhand';
 #UC7
 select city, count(*) from addressbook group by city;
 select state, count(*) from addressbook group by state;
+#UC8
+select * from addressbook where city = 'Agrico' order by first_name;

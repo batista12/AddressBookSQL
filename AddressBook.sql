@@ -23,3 +23,6 @@ values
 #UC4
 update addressbook
 set city = 'Agrico' where name = 'Ritu';
+#UC5
+delete from addressbook where first_name = 'Riya' and last_name = 'Raj';
+
